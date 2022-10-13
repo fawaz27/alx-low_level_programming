@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main(void)
+int main(int argc, char const *argv[])
 {
-    printf("with proper grammar, but the outcome is a piece of art, \n");
-    return (0);
+    printf("%s", "with proper grammar, but the outcome is a piece of art,\n");
+    return 0;
 }
