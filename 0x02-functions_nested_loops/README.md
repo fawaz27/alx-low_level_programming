@@ -9,7 +9,7 @@ in C while practicing declaring and defining my own functions.
 
 ## Header File :file_folder:
 
-* [holberton.h](./holberton.h): Header file containing prototypes for all
+* [main.h](./main.h): Header file containing prototypes for all
 functions written in the project.
 
 | File                     | Prototype                        |
@@ -30,7 +30,7 @@ functions written in the project.
 ## Tasks :page_with_curl:
 
 * **0. _putchar**
-  * [0-holberton.c](./0-holberton.c): C program that prints `Holberton`, followed by a
+  * [0-main.c](./0-main.c): C program that prints `main`, followed by a
   new line. Returns 0.
 
 * **1. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game**
@@ -73,7 +73,7 @@ functions written in the project.
 * **10. a + b**
   * [10-add.c](./10-add.c): C function that returns the addition of two integers.
 
-* **11. Holberton School, 98 Battery Street, San Francisco CA 94111**
+* **11. main School, 98 Battery Street, San Francisco CA 94111**
   * [11-print_to_98.c](./11-print_to_98.c): C function that prints all natural numbers
   from an input to `98` followed by a new line, as follows:
     * Numbers are separated by a comma followed by a space.
