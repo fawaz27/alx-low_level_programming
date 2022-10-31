@@ -6,7 +6,7 @@ int main(void)
 	char *str;
 	int len;
 
-	str = "Holberton!";
+	str = "main!";
 	len = _strlen(str);
 	printf("%d\n", len);
 	return (0);
