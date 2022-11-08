@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<stdio.h>
 /**
- * strdup - returns a pointer to a new string which is a duplicate
+ * _strdup - returns a pointer to a new string which is a duplicate
  * of the string str.
  * @str: a pointer of the string that you want duplicate.
  * Return:
@@ -35,6 +35,7 @@ char *_strdup(char *str)
 		buffer[i] = str[i];
 		i++;
 	}
+	buffer[size] = '\0';
 
 	return (buffer);
 }
